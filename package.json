@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "npx prettier --write .",
-    "pre-commit": "npm run prettier && npm run lint"
+    "pre-commit": "npm run prettier && npm run lint",
+    "prepare": "husky install"
   },
   "engineStrict": true,
   "engines": {
